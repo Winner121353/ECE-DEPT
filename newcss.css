@@ -1,0 +1,396 @@
+:root{
+	--reddish:#f76c6c;
+	--darkblue:#24305e;
+	--midblue:#373785;
+	--lightgreen:#a8d086;
+	--yellowish:#f8e9a1;
+	--lightblue:rgb(168, 209, 231);
+	--cyanish:#7cccbe;
+	--pinkish:#f99797;
+	--llgreen:#70d1aa;
+}
+
+/* FONTS */
+.f-rbto-c{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.f-lora{
+font-family: 'Lora', serif;}
+
+@media only screen and (max-width: 576px) {
+  .media-center{
+	  text-align:center;
+  }
+
+	.media-center-flex{
+	  justify-content:center;
+  }
+
+	.media-w100{
+	  width:100% ! important
+  }
+}
+
+
+/* BODY ANIMATION */
+
+.whole {
+  position: relative;
+	background: linear-gradient(90deg,#000428,#004e92,#004e92,#000428);
+	background-size: 200vw 400vh;
+	overflow: hidden;
+	animation: bgColor 20s ease infinite;
+}
+
+@keyframes bgColor {
+	0% {
+		background-position: 0% 0%;
+	}
+	25% {
+		background-position: 50% 0%;
+	}
+	50% {
+		background-position: 100% 0%;
+	}
+	75% {
+		background-position: 50% 0%;
+	}
+	100%{
+		background-position: 0% 0%;
+	}
+}
+
+/* NAVIGATION BAR */
+
+.nav-c {
+	color: white
+}
+
+.nav-c:hover{
+	text-decoration:none;
+	color:white;
+}
+
+.drop{
+	background: transparent
+}
+
+.dropa{
+	background: transparent
+}
+
+/* OVERRIDES */
+
+#we {
+  position: absolute;
+  /* padding: 25vh 0; */
+  font-size: 33px;
+  top: 25vh;
+  left: 25vw;
+  color: white;
+  font-family: 'Ubuntu', serif;
+}
+
+/* PNG ANIMATIONS */
+
+#el1 {
+  transform: rotate(30deg);
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+  color: white;
+  height: 43px;
+  width: 43px;
+  animation: el1w 7s ease infinite;
+}
+
+@keyframes el1w {
+  0% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+  50% {
+    width: 49px;
+    height: 49px;
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+}
+
+#el2 {
+  transform: rotate(-15deg);
+  position: absolute;
+  top: 70vh;
+  left: 40vw;
+  color: white;
+  height: 43px;
+  width: 43px;
+  animation: el2w 7s ease infinite;
+}
+
+@keyframes el2w {
+  0% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+  50% {
+    width: 49px;
+    height: 49px;
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+}
+
+#el3 {
+  transform: rotate(10deg);
+  position: absolute;
+  top: 60vh;
+  left: 60vw;
+  color: white;
+  height: 43px;
+  width: 43px;
+  animation: el3w 7s ease infinite;
+}
+
+@keyframes el3w {
+  0% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+  50% {
+    width: 49px;
+    height: 49px;
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+}
+
+#el4 {
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 10vh;
+  left: 25vw;
+  color: white;
+  height: 43px;
+  width: 43px;
+  animation: el4w 7s ease infinite;
+}
+
+@keyframes el4w {
+  0% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+  50% {
+    width: 49px;
+    height: 49px;
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+}
+
+#el5 {
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 5vh;
+  left: 45vw;
+  color: white;
+  height: 43px;
+  width: 43px;
+  animation: el5w 7s ease infinite;
+}
+
+@keyframes el5w {
+  0% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+  50% {
+    width: 49px;
+    height: 49px;
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+}
+
+#el6 {
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 75vh;
+  left: 10vw;
+  color: white;
+  height: 43px;
+  width: 43px;
+  animation: el6w 7s ease infinite;
+}
+
+@keyframes el6w {
+  0% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+  50% {
+    width: 49px;
+    height: 49px;
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+}
+
+#el7 {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 10vh;
+  left: 80vw;
+  color: white;
+  height: 43px;
+  width: 43px;
+  animation: el7w 7s ease infinite;
+}
+
+@keyframes el7w {
+  0% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+  50% {
+    width: 49px;
+    height: 49px;
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+}
+
+#el8 {
+  transform: rotate(-5deg);
+  position: absolute;
+  top: 50vh;
+  left: 80vw;
+  color: white;
+  height: 43px;
+  width: 43px;
+  animation: el8w 7s ease infinite;
+}
+
+@keyframes el8w {
+  0% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+  50% {
+    width: 49px;
+    height: 49px;
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+}
+
+#el9 {
+  transform: rotate(5deg);
+  position: absolute;
+  top: 40vh;
+  left: 20vw;
+  color: white;
+  height: 43px;
+  width: 43px;
+  animation: el9w 7s ease infinite;
+}
+
+@keyframes el9w {
+  0% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+  50% {
+    width: 49px;
+    height: 49px;
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.8;
+    width: 43px;
+    height: 43px;
+  }
+}
+
+/* FOOTER */
+
+#contactinfo{
+  color: white;
+}
+
+a {
+	color:white;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:none;
+	color:white;
+}
+
+/* VISION AND MISSION */
+
+#visionh{
+  color: white;
+  font-size: 25px;
+  opacity: 1;
+}
+
+#vision{
+  color: white;
+  font-size: 17px;
+  opacity: 1;
+}
+
+.boxing{
+  background: gray;
+  opacity: 0.7;
+}
+/* DON"T KNOW WHY.. BUT WORKS */
+
+html {
+  overflow: scroll;
+}
