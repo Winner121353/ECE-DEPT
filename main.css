@@ -1,0 +1,103 @@
+:root{
+	--reddish:#f76c6c;
+	--darkblue:#24305e;
+	--midblue:#373785;
+	--lightgreen:#a8d086;
+	--yellowish:#f8e9a1;
+	--lightblue:rgb(168, 209, 231);
+	--cyanish:#7cccbe;
+	--pinkish:#f99797;
+	--llgreen:#70d1aa;
+}body{
+	
+}a{
+	color:white;
+	text-decoration:none;
+}a:hover{
+	text-decoration:none;
+	color:white;
+}.p0{
+	padding:0;
+}.nounderline {
+  text-decoration: none !important
+}.b-shadow{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}.b-shadow-med{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}.brdr-smooth{
+
+	border-radius:0 0 5px 5px;
+}.break-word{
+	word-wrap:break-word;
+}.custom-btn{
+	cursor:pointer;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}.custom-btn:hover{
+	transform:translate(1px,1px);
+}
+/* color scheme */
+.bg-dblue{
+	background:var(--darkblue);
+	color:white;
+}
+.bg-mblue{
+	background:var(--midblue);color:white;
+}.bg-lblue{
+	background:var(--lightblue);color:white;
+}.bg-red{
+	background:var(--reddish);color:white;
+}.bg-yellow{
+	background:var(--yellowish);color:white;
+}.bg-lgreen{
+	background:var(--lightgreen);color:white;
+}.white-text{
+	color:white;
+}.black-text{
+	color:black;
+}.lgreen-text{
+	color:var(--lightgreen);
+}.red-text{
+	color:var(--reddish);
+}.bg-cyan{
+	background:var(--cyanish);
+	color:white;
+	}.bg-pink{
+	background:var(--pinkish);
+	color:white;
+	}.bg-llgreen{
+	background:var(--llgreen);
+	color:white;
+	}
+.dblue-text{
+	color:var(--darkblue);
+}
+/* card hover effect *
+.card-designation{
+	margin:0;
+	transition:250ms ease;
+}
+
+.card-designation{
+	height:0;
+	opacity:0;
+	
+}
+.user-card-parent:hover .card-designation{
+	height:auto;
+	opacity:1;
+}
+/* FONTS */
+.f-rbto-c{
+	font-family: 'Roboto Condensed', sans-serif;
+}.f-lora{
+font-family: 'Lora', serif;}
+
+@media only screen and (max-width: 576px) {
+  .media-center{
+	  text-align:center;
+  }.media-center-flex{
+	  justify-content:center;
+  }.media-w100{
+	  width:100% ! important
+  }
+}

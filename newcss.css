@@ -10,6 +10,42 @@
 	--llgreen:#70d1aa;
 }
 
+/* color scheme */
+.bg-dblue{
+	background:var(--darkblue);
+	color:white;
+}
+.bg-mblue{
+	background:var(--midblue);color:white;
+}.bg-lblue{
+	background:var(--lightblue);color:white;
+}.bg-red{
+	background:var(--reddish);color:white;
+}.bg-yellow{
+	background:var(--yellowish);color:white;
+}.bg-lgreen{
+	background:var(--lightgreen);color:white;
+}.white-text{
+	color:white;
+}.black-text{
+	color:black;
+}.lgreen-text{
+	color:var(--lightgreen);
+}.red-text{
+	color:var(--reddish);
+}.bg-cyan{
+	background:var(--cyanish);
+	color:white;
+	}.bg-pink{
+	background:var(--pinkish);
+	color:white;
+	}.bg-llgreen{
+	background:var(--llgreen);
+	color:white;
+	}
+.dblue-text{
+	color:var(--darkblue);
+}
 /* FONTS */
 .f-rbto-c{
 	font-family: 'Roboto Condensed', sans-serif;
@@ -34,10 +70,10 @@ font-family: 'Lora', serif;}
 
 
 /* BODY ANIMATION */
-
+/* #000428,#004e92,#004e92,#000428 */
 .whole {
   position: relative;
-	background: linear-gradient(90deg,#000428,#004e92,#004e92,#000428);
+	background: linear-gradient(45deg, #7474BF,#348AC7);
 	background-size: 200vw 400vh;
 	overflow: hidden;
 	animation: bgColor 20s ease infinite;
@@ -85,9 +121,12 @@ font-family: 'Lora', serif;}
 #we {
   position: absolute;
   /* padding: 25vh 0; */
-  font-size: 33px;
-  top: 25vh;
-  left: 20vw;
+  font-size: 40px;
+  width:100vw;
+  text-align:center;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
   color: white;
   font-family: 'Ubuntu', serif;
 }
@@ -386,11 +425,11 @@ a:hover{
 }
 
 .boxing{
-  background: gray;
-  opacity: 0.7;
+  background: rgba(112, 209, 170, 0.7)
+
 }
 /* DON"T KNOW WHY.. BUT WORKS */
 
 html {
-  overflow: scroll;
+  overflow-y: scroll;
 }
