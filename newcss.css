@@ -73,27 +73,27 @@ font-family: 'Lora', serif;}
 /* #000428,#004e92,#004e92,#000428 */
 .whole {
   position: relative;
-	background: linear-gradient(45deg, #7474BF,#348AC7);
+	background: linear-gradient(90deg, #000428,#004e92);
 	background-size: 200vw 400vh;
 	overflow: hidden;
-	animation: bgColor 20s ease infinite;
+	animation: bgColor 7s ease infinite;
 }
 
 @keyframes bgColor {
 	0% {
-		background-position: 0% 0%;
+		background-position: 0% 0vh;
 	}
 	25% {
-		background-position: 50% 0%;
+		background-position: 50% 0vh;
 	}
 	50% {
-		background-position: 100% 0%;
+		background-position: 100% 0vh;
 	}
 	75% {
-		background-position: 50% 0%;
+		background-position: 50% 0vh;
 	}
 	100%{
-		background-position: 0% 0%;
+		background-position: 0% 0vh;
 	}
 }
 
@@ -425,7 +425,7 @@ a:hover{
 }
 
 .boxing{
-  background: rgba(112, 209, 170, 0.7)
+  background: rgba(63, 195, 186, 0.7);
 
 }
 /* DON"T KNOW WHY.. BUT WORKS */
