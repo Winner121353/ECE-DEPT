@@ -34,10 +34,10 @@ font-family: 'Lora', serif;}
 
 
 /* BODY ANIMATION */
-
+/* #000428,#004e92,#004e92,#000428 */
 .whole {
   position: relative;
-	background: linear-gradient(90deg,#000428,#004e92,#004e92,#000428);
+	background: linear-gradient(45deg, var(--darkblue), var(--midblue));
 	background-size: 200vw 400vh;
 	overflow: hidden;
 	animation: bgColor 20s ease infinite;
@@ -85,9 +85,12 @@ font-family: 'Lora', serif;}
 #we {
   position: absolute;
   /* padding: 25vh 0; */
-  font-size: 33px;
-  top: 25vh;
-  left: 20vw;
+  font-size: 40px;
+  width:100vw;
+  text-align:center;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
   color: white;
   font-family: 'Ubuntu', serif;
 }
@@ -392,5 +395,5 @@ a:hover{
 /* DON"T KNOW WHY.. BUT WORKS */
 
 html {
-  overflow: scroll;
+  overflow-y: scroll;
 }
